@@ -1,0 +1,11 @@
+.SelectionArea {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+@media all and (min-width: 699px) {
+  .SelectionArea {
+    width: 70%;
+  }
+}

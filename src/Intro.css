@@ -1,0 +1,23 @@
+.IntroContainer {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.introHeader {
+  font-size: 9.5em;
+  text-align: center;
+  font-weight: 0;
+  font-family: Montserrat;
+  line-height: 100%;
+  margin-top: 0;
+}
+
+.pizzaImage {
+  width: 400px;
+  position: relative;
+  z-index: -1;
+  /*pizza overhead*/
+  margin-top: -75px;
+}
